@@ -13,7 +13,7 @@
 [MyAnimeList Anime and Manga Datasets](https://www.kaggle.com/datasets/andreuvallhernndez/myanimelist) chứa thông tin của 67.273 bộ truyện.
 
 #### **_02. Meaningful questions:_**
-- Những bộ manga nào là phù hợp đối với mỗi đối tượng (demographic) ? Mục đích: cải thiện hệ thống khuyến nghị (recommendation system) của MAL.
+- Những bộ manga nào là phù hợp đối với mỗi đối tượng (`demographics`) ? Mục đích: cải thiện hệ thống khuyến nghị (recommendation system) của MAL.
 - .
 - .
 - .
