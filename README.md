@@ -14,14 +14,11 @@
 
 #### **_02. Meaningful questions:_**
 - Những bộ manga nào là phù hợp đối với mỗi đối tượng (`demographics`)?
-
-        => Mục đích: cải thiện hệ thống khuyến nghị (recommendation system) của MAL.
+>> Mục đích: cải thiện hệ thống khuyến nghị (recommendation system) của MAL.
 - Đâu là những thời điểm bùng nổ của manga, cũng như các `genres` và `themes` phổ biến nhất ở những thời điểm này, tỉ lệ bao nhiêu trong số đó đã thành công đến thời điểm hiện tại.
-
-        => Mục đích: phân tích này mang ý nghĩa thông kê, phân tích để thấy được quá trình phát triển của của ngành công nghiệp manga, đồng thời cũng giúp so sánh với thời điểm hiện tại một phần giúp các mangaka chọn được thể loại và chủ đề sáng tác.
+>> Mục đích: phân tích này mang ý nghĩa thông kê, phân tích để thấy được quá trình phát triển của của ngành công nghiệp manga, đồng thời cũng giúp so sánh với thời điểm hiện tại một phần giúp các mangaka chọn được thể loại và chủ đề sáng tác.
 - Đánh giá sự cống hiến cũng như thành công của một mangaka (`authors`) dựa trên hai yếu tố: số bộ manga (`manga_id`) mà người đó tham gia (Story hoặc Art hoặc cả hai) và sự thành công của những bộ đó (`score`).
-
-        => Mục đích: tìm những mangaka cống hiến nhiều nhất để xếp hạng, trao thưởng, tri ân.
+>> Mục đích: tìm những mangaka cống hiến nhiều nhất để xếp hạng, trao thưởng, tri ân.
 
 #### **_03. Questions analysis:_**
 - Câu hỏi 1:
