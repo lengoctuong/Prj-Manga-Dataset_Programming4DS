@@ -19,6 +19,8 @@
 >> Mục đích: phân tích này mang ý nghĩa thông kê, phân tích để thấy được quá trình phát triển của của ngành công nghiệp manga, đồng thời cũng giúp so sánh với thời điểm hiện tại một phần giúp các mangaka chọn được thể loại và chủ đề sáng tác.
 - Đánh giá sự cống hiến cũng như thành công của một mangaka (`authors`) dựa trên hai yếu tố: số bộ manga (`manga_id`) mà người đó tham gia (Story hoặc Art hoặc cả hai) và sự thành công của những bộ đó (`score`).
 >> Mục đích: tìm những mangaka cống hiến nhiều nhất để xếp hạng, trao thưởng, tri ân.
+- Những thể loại (`genres`) nào được người đọc yêu thích ở thời gian gần đây hơn so với thời gian trước và ngược lại?
+>> Mục đích: biết được xu hướng đọc hiện nay của người dùng MAL để có thể tạo ra những bài blogs, articles liên quan đến những thể loại đó.
 
 #### **_03. Questions analysis:_**
 - Câu hỏi 1:
@@ -37,6 +39,10 @@
   - Chuẩn hóa hai chỉ số về dạng thích hợp.
   - Tính tổng của tích chỉ số với trọng số (mỗi chỉ số sẽ có trọng số tương ứng để thể hiện mức độ ảnh hưởng), output sẽ là mức độ cống hiển, thành công của một mangaka.
   - Sau đó ta sẽ lấy ra những mangaka có output cao nhất.
+- Câu hỏi 4:
+  - Đưa ra threshold cho số lượng người đánh giá (`scored_by`).
+  - Với mỗi thể loại, chia số manga thuộc thể loại đó ra làm 2 phần bằng median của thời gian xuất bản (`real_start_date`), sau đó chỉ lấy những bộ nào có `scored_by` >= threshold.
+  - Tính trung bình mỗi phần rồi so sánh, output sẽ là list những manga được yêu thích gần đây hơn và list những manga được yêu thích ở thời gian trước hơn.
 
 #### **_04. More Information:_**
 - [Github](https://github.com/lengoctuong/Prj-Manga-Dataset_Programming4DS)
