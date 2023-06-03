@@ -58,15 +58,19 @@
 > **Kết quả:** Output là chỉ số thuộc (0, 1], mangaka có output cao hơn sẽ có ranking cao hơn. Rank không chỉ phụ thuộc vào một bộ manga có ảnh hưởng lớn, mà còn phụ thuộc vào mangaka đó có bao nhiêu tác phẩm với score cao.
 
 > - Mangaka top1
+
 ![Q3-top1](./Images/Q3-top1.png)
 
 > - Mangaka top2
+
 ![Q3-top2](./Images/Q3-top2.png)
 
 > - Mangaka Eiichiro Oda
+
 ![Q3-eiichiro-oda](./Images/Q3-eiichiro-oda.png)
 
 > - Mangaka Masashi Kishimoto
+
 ![Q3-masashi-kishimoto](./Images/Q3-masashi-kishimoto.png)
 
 - Câu hỏi 4:
